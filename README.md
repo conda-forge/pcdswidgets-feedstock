@@ -5,11 +5,11 @@ Home: https://github.com/pcdshub/pcdswidgets
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pcdswidgets-feedstock/blob/master/LICENSE.txt)
 
 Summary: PyDM library of widgets for the Linac Coherent Light Source (LCLS) at SLAC
 
-
+Documentation: https://pcdshub.github.io/pcdswidgets/
 
 Current build status
 ====================
