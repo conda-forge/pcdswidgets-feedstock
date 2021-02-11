@@ -21,6 +21,7 @@ requirements:
   run:
     - python >=3.6
     - pydm >=1.9.0
+    - qtpy
 
 test:
   imports:
@@ -36,5 +37,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - klauer
     - hhslepicka
+    - klauer
+    - zllentz
