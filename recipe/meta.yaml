@@ -10,7 +10,7 @@ source:
   sha256: 07f4dc9deb72ef41bbaadd9b41255d8e4b9198ba7975eec999df3d2c39524489
 
 build:
-  number: 1
+  number: 2
   noarch: python
 
 requirements:
@@ -36,6 +36,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - hhslepicka
     - klauer
+    - zrylettc
     - zllentz
