@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdswidgets/archive/v{{ version }}.tar.gz
-  sha256: 07f4dc9deb72ef41bbaadd9b41255d8e4b9198ba7975eec999df3d2c39524489
+  sha256: 79c258ef7816fd57146f280ec7fa8c4c5e4ea80f38df2a87afce1563f0b8df4f
 
 build:
   number: 2
