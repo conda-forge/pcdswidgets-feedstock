@@ -19,7 +19,7 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - pydm >=1.9.0
+    - pydm >=1.16.0
     - qtpy
 
 test:
