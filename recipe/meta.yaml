@@ -1,5 +1,5 @@
 {% set name = "pcdswidgets" %}
-{% set version = "0.7.1" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,19 +7,20 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdswidgets/archive/v{{ version }}.tar.gz
-  sha256: fb9bba91f90326ff8e3d7dd2360c6e7137e4d2a93dd953cd2acb9436be8f2455
+  sha256: 44d8f453dc9ffeb65d964ee88b900b430ddfb0f9f558dc66f76083f9354d4ddf
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - pip
+    - setuptools_scm
   run:
-    - python >=3.8
+    - python >=3.9
     - pydm >=1.16.0
     - qtpy
 
@@ -37,6 +38,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - conda-forge/pcdsdevices
     - klauer
-    - zrylettc
+    - tangkong
     - zllentz
