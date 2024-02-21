@@ -1,5 +1,5 @@
 {% set name = "pcdswidgets" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdswidgets/archive/v{{ version }}.tar.gz
-  sha256: f17e9ec0f2aa22a66ebcba1061ef3d63fa8d43d6820add8d16041bad7a32093b
+  sha256: 1ededab3f4e8e52d92e723bc26ae9281b7af42a01589d75a10a8ede0592c77de
 
 build:
   number: 0
@@ -40,6 +40,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/pcdsdevices
-    - klauer
-    - tangkong
-    - zllentz
