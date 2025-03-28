@@ -1,5 +1,5 @@
 {% set name = "pcdswidgets" %}
-{% set version = "0.8.4" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdswidgets/archive/v{{ version }}.tar.gz
-  sha256: 18be78d6412aa312c054853c9f69c5a7ada2171d41da760d55fa5157102b4845
+  sha256: 1248176baaaa1e5f4e8bc13bb93dd175eae86250cb17f2fb46baf73d70312076
 
 build:
   number: 0
