@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/pcdshub/pcdswidgets/archive/v{{ version }}.tar.gz
-  sha256: 8de11e667d7612b5fdb58e797f7a2aeb5b0ee3c58ae421ab0c9b1c6dcbf94b21
+  url: https://pypi.org/packages/source/p/pcdswidgets/pcdswidgets-{{ version }}.tar.gz
+  sha256: 31c3fe73d47bcfe40b554fba151aabb0d1e6dd787adeb38e2d6e92d4a08c8092
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
