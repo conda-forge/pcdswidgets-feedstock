@@ -24,8 +24,8 @@ requirements:
   run:
     - python >={{ python_min }}
     - pydm >=1.9.0
-    - qtpy
-    - pyqt >=5
+    - pyyaml >=6.0.3
+    - qtpy >=2.4.3
 
 test:
   requires:
