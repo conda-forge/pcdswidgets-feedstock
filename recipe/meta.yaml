@@ -1,5 +1,5 @@
 {% set name = "pcdswidgets" %}
-{% set version = "2.4.2" %}
+{% set version = "2.5.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/p/pcdswidgets/pcdswidgets-{{ version }}.tar.gz
-  sha256: 9f78f3e519ed14b962684a43b2a730ea108eb7fc28876768d033259856687147
+  sha256: bfc0776a647d92e1234c9839d733d19ce18e56d69352719dbe48cc6266f95b1a
 
 build:
   number: 0
